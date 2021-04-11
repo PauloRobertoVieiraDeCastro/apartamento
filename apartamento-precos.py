@@ -58,7 +58,7 @@ def web_control(url):
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-st.markdown("<h2 style='margin-top: -40px; font-family: Helvetica; font-weight:bold; margin-left: 140px'>Análise descritiva de preços</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='margin-top: -40px; font-family: Helvetica; font-weight:bold; margin-left: 140px'>Análise de preços</h2>", unsafe_allow_html=True)
 
 
 #---------------sidebar---------------------------------------------------------------------------------------------------------------------------------------
