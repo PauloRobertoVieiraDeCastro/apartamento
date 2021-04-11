@@ -44,7 +44,7 @@ def tabela(h):
 def web_control(url):
     final = []
     #contador = 188
-    for i in range(1,18):
+    for i in range(1,188):
         urlq = url + str(i)
         page = requests.get(urlq)
         soup = BeautifulSoup(page.content, 'html.parser')
