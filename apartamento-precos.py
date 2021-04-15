@@ -88,7 +88,7 @@ col10, col20 = st.sidebar.beta_columns(2)
 submit = col10.button('Realizar busca')
 
 #---------------------------------------------------------------------------------------------------------
-st.write("O objetivo dessa aplicação é realizar uma análise descritiva de oportunidades de imóveis. Com base nas esntradas fornecidas pelo usuário, serão obtidos alguns insights de modo a retornar prováveis excelentes oportunidades de compra de imóveis na região do Rio de Janeiro.")
+st.write("O objetivo dessa aplicação é realizar uma análise descritiva de oportunidades de imóveis. Com base nas entradas fornecidas pelo usuário, serão obtidos alguns insights de modo a retornar prováveis excelentes oportunidades de compra de imóveis na região do Rio de Janeiro.")
 st.write("Deve-se ressaltar que essa análise é unicamente numérica. Além disso, em qualquer processo de compra de imóveis, se deve avaliar a situação jurídica do imóvel (está em penhora, alienação fiduciária, inventário..), a situação física (precisa de reformas ou é só entrar e morar?) e também a localização exata (É movimentado? Tem comércio perto? Há alta incidência de assalto?).")
 st.write("Apenas considerando essas condições, após a visita ao imóvel e verificação das documentações pertinentes, é que de fato pode-se chegar a um excelente negócio")
 st.write("A busca pode demorar um pouco, pois é um processo de busca em sites da Internet, seguida da compilação dos dados, passando de 7000 imóveis.")
